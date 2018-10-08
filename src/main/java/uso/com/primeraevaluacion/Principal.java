@@ -28,7 +28,6 @@ public class Principal extends AppCompatActivity {
 
     public void onClickBtnNuevoEstudiante(View v){
         Intent nuevoActivity = new Intent(Principal.this, NuevoEstudiante.class);
-        btn.setText("LISTA ESTUDIANTES " + Adaptador.getCount());
         startActivity(nuevoActivity);
     }
 
