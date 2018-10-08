@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PrimeraEvaluacion</string>
+    <string name="btn_NuevoEst">NUEVO ESTUDIANTE</string>
+    <string name="btn_ListaEst">LISTA ESTUDIENATES</string>
+    <string name="btn_Guardar">GUARDAR</string>
+</resources>

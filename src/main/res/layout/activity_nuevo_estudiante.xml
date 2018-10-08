@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoEstudiante">
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:paddingLeft="20dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Código"
+        android:paddingLeft="20dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/edtMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Materia"
+        android:paddingLeft="20dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/edtPrimerParcial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Primer Parcial      : 30%"
+        android:paddingLeft="20dp"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtSegundoParcial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Segundo Parcial  : 30%"
+        android:paddingLeft="20dp"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/edtTercerParcial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tercer Parcial      : 40%"
+        android:paddingLeft="20dp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickBtnGuardar"
+        android:text="@string/btn_Guardar" />
+</LinearLayout>
